@@ -19,7 +19,7 @@ const Resident = ({residentUrl}) => {
     <article>
         <div className="relative">
             <img className="rounded-full border-8 border-[#893446]  " src={residentInfo?.image} alt="" />
-            <div className="flex items-center gap-2 absolute bottom-3 left-1/2 -translate-x-1/2">
+            <div className="bg-black/60 flex items-center gap-2 absolute bottom-6 left-1/2 -translate-x-1/2 rounded-2xl px-4">
                 <div className={`h-3 aspect-square ${statusStyles[residentInfo?.status]} rounded-full`}></div>
                 {residentInfo?.status}
             </div>
