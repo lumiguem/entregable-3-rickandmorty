@@ -16,7 +16,7 @@ function App() {
   }, [])
 
   return (
-    <main className='bg-[url("/images/bg-image.png")] bg-cover h-screen overflow-y-scroll min-h-screen text-white'>
+    <main className='bg-[url("/images/bg-image.png")] bg-cover bg-bottom h-screen overflow-y-scroll min-h-screen text-white'>
       <Location  location = {location} setLocation  = {setLocation}/>
       <ResidentList location = {location} residents = {location?.residents}/>
     </main>
